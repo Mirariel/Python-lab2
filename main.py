@@ -54,7 +54,7 @@ def task6():
     b = int(input("b: "))
     total = 0
     while a >= b:
-        print("A має бути менше або дорівнювати B. Спробуйте ще раз.")
+        print("A має бути менше B. Спробуйте ще раз.")
         a = int(input("a: "))
         b = int(input("b: "))
     while a <= b:
@@ -87,7 +87,7 @@ def task9():
     for i in range(1, 10000):
         sq = i * i
         if sq > n:
-            print("Перше число більше n:", sq, (i ^ 2))
+            print("Перше число більше n:", sq)
             break
 
 def task10():
